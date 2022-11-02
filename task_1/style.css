@@ -1,0 +1,151 @@
+*{
+    margin:0%;
+    padding: 0%;
+    box-sizing: border-box;
+}
+.section{
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+}
+.container-1{
+    margin-top: 20px;
+   /* background-color: aqua; */
+    height: 80%;
+    width: 90%;
+    max-width: 640px;
+    display: flex;
+    justify-content: center;
+    border: 20px solid rgb(225, 221, 221);
+}
+.container{
+   /* background: blue; */
+    width: 90%;
+    height: 90%;
+    display: flex;
+    margin-top: 3%;
+
+}
+.overall{
+    /* background: yellow; */
+    height: 50%;
+    width: 100%;
+}
+.first{
+    display: flex;
+    justify-content: space-between;
+   /*background: wheat;*/
+    width: 100%;
+    height: 10%;
+}
+.line-dark{
+    border: 2px solid rgb(2, 2, 2);
+    height: 1px;
+    margin-top: 1%;
+    width: 100%;
+
+}
+.line-light{
+    width: 100%;
+    margin-top: 25px;
+    border-top: 2px solid rgb(152, 150, 150);
+}
+.prop{
+    text-align: center;
+    margin-top: 2px;
+    color: rgb(128, 126, 126);
+}
+.fade-1{
+    /* background: rgb(225, 221, 221); */
+    height: 20px;
+    width: 100%;
+    margin-top: 0px;
+    border-top: 2px solid rgb(152, 150, 150);
+    border-bottom: 2px dashed rgb(191, 183, 183);
+}
+.fade-2{
+    /* background: rgb(225, 221, 221); */
+    height: 20px;
+    width: 100%;
+    margin-top: 25px;
+    border-top: 2px dashed rgb(191, 183, 183);
+    border-bottom: 2px dashed rgb(191, 183, 183);
+}
+.fade-3{
+    /* background: rgb(225, 221, 221); */
+    height: 20px;
+    width: 100%;
+    margin-top: 25px;
+    border-top: 2px dashed rgb(191, 183, 183);
+    border-bottom: 2px solid rgb(152, 150, 150);
+}
+.days{
+    margin-top: 20px;
+    display: flex;
+    justify-content: space-around;
+    /*background: red;*/ 
+    height: 95%;
+}
+.dot-line{
+    border-bottom: 1px dotted rgb(67, 66, 66);
+}
+.tues1 header{
+    width: 100%;
+    border-bottom: 1px solid black;
+}
+.weeks{
+border: 2px solid  rgb(194, 193, 193);
+height: 90%;
+width: 30%;
+text-align: center;
+}
+.weeks p{
+    font-size: 1em;
+    text-align: center;
+    margin-bottom: px;
+}
+.hr{
+    height: 2px;
+    background: black;
+}
+.task--holder{
+    padding: 10px;
+    margin-top: 0px;
+}
+.task{
+    width: 100%;
+    border-bottom: 2px dashed rgb(194, 193, 193);
+    display: flex;
+    justify-content: left;
+    height: 50%;
+    box-sizing: border-box;
+}
+.task input{
+    height: 1.07em;
+    width: 80%;
+    padding-right: 80%;
+    margin-right: 0%;
+}
+.border-1{
+    border: none;
+    display: flex;
+    padding-left: 2%;
+}
+p{
+    color: rgb(128, 126, 126);
+}
+.week{
+    width: 60%;
+}
+.may{
+    width: 30%;
+    text-align: right;
+}
+
+.border{
+    width: 100%;
+    background: rgb(225, 221, 221);
+    border: none;
+    display: flex;
+    padding-left: 2%;
+}
